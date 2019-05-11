@@ -41,7 +41,7 @@ class App extends Component {
           <Route
             exact
             path="/template"
-            render={props => <Template values={this.state} />}
+            render={props => <Template {...this.state} />}
           />
         </div>
       </Router>
