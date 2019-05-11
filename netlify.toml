@@ -1,4 +1,0 @@
-[build]
-base = "query-letter-generator/"
-publish = "query-letter-generator/build/"
-command = "npm run build"
