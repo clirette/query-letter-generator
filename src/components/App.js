@@ -10,19 +10,44 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      fullName: "",
-      chosenName: "",
-      pronoun: "",
       age: "",
-      definingCharacteristic: ""
+      agentName: "",
+      agentPersonalization: "",
+      authorName: "",
+      category: "",
+      challengeOutcome1: "",
+      challengeOutcome2: "",
+      chosenName: "",
+      compTitle1: "",
+      compTitle2: "",
+      definingCharacteristic: "",
+      discoveries: "",
+      fullName: "",
+      genre: "",
+      greatestChallenge: "",
+      honorific: "",
+      hopesAndDreams: "",
+      incitedAction: "",
+      incitingIncident: "",
+      initialChallenges: "",
+      newNormal: "",
+      penName: "",
+      personalDetail1: "",
+      personalDetail2: "",
+      pronoun: "",
+      qualification1: "",
+      qualification2: "",
+      sequel: "",
+      setting: "",
+      tagLine: "",
+      title: "",
+      updatedPurpose: "",
+      wordCount: ""
     };
   }
 
-  handleFormSubmit() {}
-
   handleInputChange = (stateItem, value) => {
     this.setState({ [stateItem]: value });
-    console.log(this.state);
   };
 
   render() {

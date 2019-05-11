@@ -7,10 +7,10 @@ const Template = props => {
     <div className="template">
       <p>
         Dear {props.honorific || "[Honorific]"}{" "}
-        {props.agentName || "[Agent Name]"}
+        {props.agentName || "[Agent Name]"},
         <br />
         <br />
-        {props.tagLine || "[Tagline]"}
+        {props.tagline || "[Tagline]"}...
         <br />
         <br />
         {props.age || "[Age]"}-year-old{" "}
@@ -18,8 +18,9 @@ const Template = props => {
         {props.fullName || "[Full Name]"} just wants{" "}
         {props.hopesAndDreams || "[Hopes and Dreams]"}, but when{" "}
         {props.incitingIncident || "[Inciting Incident]"},{" "}
-        {props.chosenName || "[Chosen Name]"} must{" "}
-        {props.incitedAction || "[Incited Action]"} or{" "}
+        {props.chosenName || "[Chosen Name]"}{" "}
+        {props.incitedAction || "[Incited Action]"}. Now,{" "}
+        {props.chosenName || "[Chosen Name]"}{" "}
         {props.updatedPurpose || "[Updated Purpose]"}.<br />
         <br />
         As {props.chosenName || "[Chose Name]"}{" "}
@@ -36,10 +37,13 @@ const Template = props => {
         {props.title || "[Title]"} is a {props.category || "[Category]"}{" "}
         {props.genre || "[Genre]"} set in {props.setting || "[Setting]"}. It
         will appeal to readers of {props.compTitle1 || "[Comp 1]"} and{" "}
-        {props.compTitle2 || "[Comp 2]"}. {props.title || "[Title]"} has
-        potential for a sequel following {props.chosenName || "[Chosen Name]"}
-        &#39;s story as {props.pronoun || "[Pronoun]"} continues to{" "}
-        {props.sequel || "[Sequel]"}.<br />
+        {props.compTitle2 || "[Comp 2]"}.{" "}
+        {props.sequel &&
+          `${props.title ||
+            "[Title]"} has potential for a sequel following ${props.chosenName ||
+            "[Chosen Name]"}'s story as ${props.pronoun ||
+            "[Pronoun]"} continues to ${props.sequel}.`}
+        <br />
         <br />I am submitting {props.title || "[Title]"} to you because{" "}
         {props.agentPersonalization || "[Agent Personalization]"}.<br />
         <br />
@@ -53,8 +57,10 @@ const Template = props => {
         <br />
         <br />
         Yours sincerely,
-        {props.authorName || "[Author Name]"} (writing as{" "}
-        {props.penName || "[Pen Name]"})
+        <br />
+        <br />
+        {props.authorName || "[Author Name]"}{" "}
+        {props.penName && `(Writing as ${props.penName})`}
       </p>
       <Link to="/">Home</Link>
       <Link to="/generator">Generator</Link>
