@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Form from "./Form";
 import Template from "./Template";
 import Landing from "./Landing";
 import TemplateExample from "./TemplateExample";
+import NotFound from "./NotFound";
 
 class App extends Component {
   constructor(props) {
@@ -54,20 +55,21 @@ class App extends Component {
     return (
       <Router>
         <div className="app">
-          <Route exact path="/" component={Landing} />
-          <Route
-            exact
-            path="/generator"
-            render={props => (
-              <Form handleInputChange={this.handleInputChange} />
-            )}
-          />
-          <Route exact path="/template-example" component={TemplateExample} />
-          <Route
-            exact
-            path="/template"
-            render={props => <Template {...this.state} />}
-          />
+          <Switch>
+            <Route exact path="/" component={Landing} />
+            <Route
+              path="/generator"
+              render={props => (
+                <Form handleInputChange={this.handleInputChange} />
+              )}
+            />
+            <Route path="/example" component={TemplateExample} />
+            <Route
+              path="/template"
+              render={props => <Template {...this.state} />}
+            />
+            <Route component={NotFound} />
+          </Switch>
         </div>
       </Router>
     );

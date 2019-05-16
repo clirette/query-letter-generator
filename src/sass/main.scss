@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.landing-body {
+  height: 100vh;
+  width: 100vw;
+  background: url('./img/typewriter.jpg') no-repeat center center/cover;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(187, 187, 187, 0.5);
+  }
+}
+
+
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  opacity: .9;
+  padding: 2rem;
+  z-index: 2;
+  width: 60%;
+  box-shadow: 0px 5px 10px rgba(0,0,0,.5);
+
+  &__heading {
+    text-align: center;
+    font-size: 3rem;
+    margin: 1rem auto;
+  }
+
+  &__lead {
+    font-size: 1.4rem;
+    margin: 1rem auto;
+  }
+}
+
+.links {
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  border: 2px solid #800080;
+  outline: none;
+  text-decoration: none;
+  background-color: #800080;
+  color: white;
+  padding: .5rem;
+  transition: all .3s ease-in;
+  font-weight: 500;
+  font-size: 1.4rem;
+  box-shadow: 0px 2px 3px black;
+  
+  &:hover {
+    border: 2px solid #4f0259;
+    background-color: #4f0259;
+    color: #fff;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #800080;
+  margin-bottom: 1.4rem;
+  max-height: 5rem;
+  box-shadow: 0 1px 5px rgba(0,0,0,.5);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.nav-link {
+  margin: .6rem 1.6rem;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.logo {
+  height: 6rem;
+  margin: .3rem 1rem;
+}
+
+.active {
+  color: #8fbab3 !important;
+}
