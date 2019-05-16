@@ -3,15 +3,6 @@ import { NavLink } from "react-router-dom";
 import logo from "../images/logo.png";
 
 class Header extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { current: "" };
-  }
-
-  handleClick = e => {
-    console.log(e.target.dataset);
-  };
-
   render() {
     return (
       <header className="navbar">
@@ -29,13 +20,17 @@ class Header extends Component {
             </NavLink>
           </li>
           <li className="nav-link">
-            <NavLink activeClassName="active" to="/generator">
+            <NavLink
+              activeClassName="active"
+              className={this.props.current}
+              to="/generator"
+            >
               Generator
             </NavLink>
           </li>
           <li className="nav-link">
             <NavLink activeClassName="active" to="/example">
-              Example
+              Examples
             </NavLink>
           </li>
         </ul>

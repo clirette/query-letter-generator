@@ -1,10 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Header from "./Header";
 
 const Template = props => {
-  console.log(props);
   return (
     <div className="template">
+      <Header current="active" />
       <p>
         Dear {props.honorific || "[Honorific]"}{" "}
         {props.agentName || "[Agent Name]"},
@@ -62,8 +62,6 @@ const Template = props => {
         {props.authorName || "[Author Name]"}{" "}
         {props.penName && `(Writing as ${props.penName})`}
       </p>
-      <Link to="/">Home</Link>
-      <Link to="/generator">Generator</Link>
     </div>
   );
 };
