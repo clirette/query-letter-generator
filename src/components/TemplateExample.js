@@ -55,11 +55,13 @@ const TemplateExample = () => {
               Dear [Ms.] [Agent],
               <br />
               <br />
-              [A fearsome dragon. A knight in shining armor. ]... [22]-year-old
-              [secret dragon] [Elsie Fire] just wants [a quiet life as an
-              editorial assistant in New York City], but when [a man bothers her
-              on the subway], [Elsie] [accidentally breathes fire on him]. Now
-              [Elsie] [must face a world that knows her secret].
+              [A fearsome dragon. A knight in shining armor. ]...
+              <br />
+              <br />
+              [22]-year-old [secret dragon] [Elsie Fire] just wants [a quiet
+              life as an editorial assistant in New York City], but when [a man
+              bothers her on the subway], [Elsie] [accidentally breathes fire on
+              him]. Now [Elsie] [must face a world that knows her secret].
               <br />
               <br />
               As [Elsie] [navigates her new life as a known dragon], [she]
@@ -103,13 +105,16 @@ const TemplateExample = () => {
               <br />
               <br />
               [He’s robbed three banks, two trains, and a jewelry store without
-              getting caught. Now, he’s locked up anyway]... [101]-year-old
-              [conman] [Deeby Cooper] just wants [to rob $1,000,000 from the
-              bank across from his house and use the money to spend his last
-              years sipping Mai Tais in Fiji], but when [his great-grandchildren
-              throw him in a nursing home], [Deeby] [sees that his last great
-              con isn’t going to be a robbery, but an escape]. Now, [Deeby] [has
-              to prepare to steal the greatest prize of all—himself].
+              getting caught. Now, he’s locked up anyway]...
+              <br />
+              <br />
+              [101]-year-old [conman] [Deeby Cooper] just wants [to rob
+              $1,000,000 from the bank across from his house and use the money
+              to spend his last years sipping Mai Tais in Fiji], but when [his
+              great-grandchildren throw him in a nursing home], [Deeby] [sees
+              that his last great con isn’t going to be a robbery, but an
+              escape]. Now, [Deeby] [has to prepare to steal the greatest prize
+              of all—himself].
               <br />
               <br />
               As [Deeby] [formulates his escape], [he] discovers [a number of
