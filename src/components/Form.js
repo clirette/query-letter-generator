@@ -7,14 +7,11 @@ import Header from "./Header";
 class Form extends Component {
   render() {
     return (
-      <div>
+      <div className="query-background">
         <Header />
         <div className="query-form">
-          <div className="header">
-            <h1>Query Generator</h1>
-          </div>
           <form className="form">
-            <h3 className="top-h3">Section One: Your Protagonist</h3>
+            <h3 className="section-header">Section One: Your Protagonist</h3>
             <FormItem
               htmlFor="fullName"
               label="Full Name"
@@ -59,7 +56,8 @@ class Form extends Component {
               placeholder="Your protagonist wants..."
               handleInputChange={this.props.handleInputChange}
             />
-            <h3 className="top-h3">Section Two: The Plot</h3>
+            <hr className="section-divider" />
+            <h3 className="section-header">Section Two: The Plot</h3>
             <FormItem
               htmlFor="incitingIncident"
               label="Inciting Incident"
@@ -132,7 +130,8 @@ class Form extends Component {
               example="In the furthest bookcase, on the tallest shelf, a hidden world of magic awaits..."
               handleInputChange={this.props.handleInputChange}
             />
-            <h3 className="top-h3">Section Three: Meta Data</h3>
+            <hr className="section-divider" />
+            <h3 className="section-header">Section Three: Meta Data</h3>
             <FormItem
               htmlFor="title"
               label="Title"
@@ -201,7 +200,8 @@ class Form extends Component {
               example="solve more mysteries at Murder Academy, explore the world beyond their step-father&#39;s manor, fight against the evil secret society of librarians gone bad"
               handleInputChange={this.props.handleInputChange}
             />
-            <h3 className="top-h3">Section Four: You!</h3>
+            <hr className="section-divider" />
+            <h3 className="section-header">Section Four: You!</h3>
             <FormItem
               htmlFor="authorName"
               label="Your Full Name"
@@ -230,7 +230,8 @@ class Form extends Component {
               htmlFor2="personalDetail2"
               handleInputChange={this.props.handleInputChange}
             />
-            <h3 className="top-h3">Section Five: The Agent</h3>
+            <hr className="section-divider" />
+            <h3 className="section-header">Section Five: The Agent</h3>
             <FormItem
               htmlFor="agentName"
               label="Last Name"
@@ -252,9 +253,23 @@ class Form extends Component {
               placeholder="I am submitting to you because..."
               handleInputChange={this.props.handleInputChange}
             />
-            <Link to="/template">
-              <input type="submit" value="Submit" />
-            </Link>
+            <div className="pledge">
+              <h2 className="pledge__header">The pledge of common sense</h2>
+              <p className="pledge__lead">
+                Before I receive my query letter, I, the author of my book, do
+                hereby swear to actually read and edit it before I even think
+                about copy and pasting an auto-generated form letter into an
+                email and sending it on to a real-life agent. Of course I do.
+                Why are you making me read this?
+              </p>
+              <Link to="/template">
+                <input
+                  type="submit"
+                  value="Show Me My Query"
+                  className="link"
+                />
+              </Link>
+            </div>
           </form>
         </div>
       </div>

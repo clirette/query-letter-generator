@@ -20,12 +20,10 @@ export default class FormItem extends Component {
     return (
       <div className="item">
         <label htmlFor={this.props.htmlFor}>{this.props.label}</label>
-        <p>
+        <p className="description">
           {this.props.description} {this.props.children}
         </p>
-        <p>
-          <em>Ex. {this.props.example}</em>
-        </p>
+        <p>{this.props.example && <em>Ex. {this.props.example}</em>}</p>
         <input
           type={this.props.inputType}
           placeholder={this.props.placeholder}
