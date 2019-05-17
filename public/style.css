@@ -143,3 +143,24 @@ body {
     font-size: 2rem; }
   .pledge__lead {
     font-size: 1.2rem; }
+
+.template__text {
+  width: 90%;
+  margin: auto; }
+
+.example-container {
+  display: flex; }
+
+.example {
+  flex: 1;
+  width: 70%; }
+  .example__header {
+    text-align: center; }
+
+.template-examples {
+  flex: 1;
+  width: 70%; }
+
+.template-examples__text {
+  width: 90%;
+  margin: auto; }
