@@ -134,7 +134,7 @@ body {
 .pledge {
   width: 60%;
   margin: 0 auto;
-  border: .2rem solid teal;
+  border: .2rem dashed teal;
   margin-bottom: 2rem;
   padding: 1rem; }
   .pledge * {
@@ -149,13 +149,32 @@ body {
   margin: auto; }
 
 .example-container {
-  display: flex; }
+  display: flex;
+  margin-bottom: 1rem; }
 
 .example {
   flex: 1;
-  width: 70%; }
+  width: 70%;
+  border-right: .2rem dashed teal;
+  position: relative; }
   .example__header {
     text-align: center; }
+  .example__buttons-container {
+    display: flex;
+    flex-direction: row-reverse; }
+  .example__buttons {
+    margin: auto 1rem; }
+    .example__buttons button {
+      margin: auto .5rem;
+      background-color: lightgray;
+      color: white;
+      border: 0;
+      padding: .2rem 1rem;
+      font-size: 1.4rem;
+      cursor: pointer;
+      font-weight: 700; }
+      .example__buttons button::-moz-focus-inner {
+        border: 0; }
 
 .template-examples {
   flex: 1;
