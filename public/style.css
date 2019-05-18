@@ -183,3 +183,6 @@ body {
 .template-examples__text {
   width: 90%;
   margin: auto; }
+
+.example-left {
+  margin-top: 2.2rem; }

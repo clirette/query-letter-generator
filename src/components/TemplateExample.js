@@ -53,8 +53,10 @@ class TemplateExample extends Component {
         bothering me.] [Optional Personal Detail 2.]
         <br />
         <br />
-        Thank you for your consideration. Yours sincerely, [Julia Marcie]
-        (writing as [Eisle Erif])
+        Thank you for your consideration.
+        <br />
+        <br />
+        Yours sincerely, [Julia Marcie] (writing as [Eisle Erif])
       </p>,
       <p className="template-examples__text">
         Dear [Mr.] [Agent],
@@ -100,8 +102,10 @@ class TemplateExample extends Component {
         over questions about my own grandfather being D.B. Cooper in disguise.]
         <br />
         <br />
-        Thank you for your consideration. Yours sincerely, [Chase Cooper]
-        (writing as [Chase Casino])
+        Thank you for your consideration.
+        <br />
+        <br />
+        Yours sincerely, [Chase Cooper] (writing as [Chase Casino])
       </p>
     ];
   }
@@ -120,7 +124,7 @@ class TemplateExample extends Component {
         <div className="example-container">
           <div className="example">
             <h1 className="example__header">Template</h1>
-            <p className="template-examples__text">
+            <p className="template-examples__text example-left">
               Dear [Honorific] [Agent Name],
               <br />
               <br />
@@ -151,8 +155,11 @@ class TemplateExample extends Component {
               [Optional Qualification 1]. [Optional Qualification 2.] [Optional
               Personal Detail 1.] [Optional Personal Detail 2.]
               <br />
-              <br /> Thank you for your consideration. Yours sincerely, [Author
-              Name] (writing as [Pen Name])
+              <br />
+              Thank you for your consideration.
+              <br />
+              <br />
+              Yours sincerely, [Author Name] (writing as [Pen Name])
             </p>
           </div>
           <div className="template-examples">
