@@ -33,6 +33,11 @@ class Header extends Component {
               Examples
             </NavLink>
           </li>
+          <li className="nav-link">
+            <NavLink activeClassName="active" to="/advice">
+              Advice
+            </NavLink>
+          </li>
         </ul>
       </header>
     );

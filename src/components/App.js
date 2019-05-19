@@ -5,6 +5,7 @@ import Form from "./Form";
 import Template from "./Template";
 import Landing from "./Landing";
 import TemplateExample from "./TemplateExample";
+import Advice from "./Advice";
 import NotFound from "./NotFound";
 
 class App extends Component {
@@ -57,6 +58,7 @@ class App extends Component {
         <div className="app">
           <Switch>
             <Route exact path="/" component={Landing} />
+            <Route path="/advice" component={Advice} />
             <Route
               path="/generator"
               render={props => (

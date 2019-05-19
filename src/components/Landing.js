@@ -16,11 +16,14 @@ const Landing = () => {
           is just here to help you get started.
         </p>
         <div className="links">
+          <Link to="/generator" className="link">
+            Generator
+          </Link>
           <Link to="/example" className="link">
             Examples
           </Link>
-          <Link to="/generator" className="link">
-            Generator
+          <Link to="/advice" className="link">
+            Advice
           </Link>
         </div>
       </div>
