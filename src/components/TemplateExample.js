@@ -56,7 +56,10 @@ class TemplateExample extends Component {
         Thank you for your consideration.
         <br />
         <br />
-        Yours sincerely, [Julia Marcie] (writing as [Eisle Erif])
+        Yours sincerely,
+        <br />
+        <br />
+        [Julia Marcie] (writing as [Eisle Erif])
       </p>,
       <p className="template-examples__text">
         Dear [Mr.] [Agent],
@@ -105,7 +108,10 @@ class TemplateExample extends Component {
         Thank you for your consideration.
         <br />
         <br />
-        Yours sincerely, [Chase Cooper] (writing as [Chase Casino])
+        Yours sincerely,
+        <br />
+        <br />
+        [Chase Cooper] (writing as [Chase Casino])
       </p>
     ];
   }
@@ -159,7 +165,10 @@ class TemplateExample extends Component {
               Thank you for your consideration.
               <br />
               <br />
-              Yours sincerely, [Author Name] (writing as [Pen Name])
+              Yours sincerely,
+              <br />
+              <br />
+              [Author Name] (writing as [Pen Name])
             </p>
           </div>
           <div className="template-examples">
