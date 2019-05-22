@@ -11,7 +11,7 @@ const Template = props => {
       <div className="template-container">
         <div className="template__div">
           <h1 className="template__header">
-            Query for {props.title || "[Title]"}
+            Query for {props.title.toUpperCase() || "[TITLE]"}
           </h1>
           <p className="template__text">
             Dear {props.honorific || "[Honorific]"}{" "}
@@ -43,17 +43,19 @@ const Template = props => {
             {props.challengeOutcome2 || "[Outcome 2]"}.<br />
             <br />
             Complete at {props.wordCount || "[Word Count]"} words,{" "}
-            {props.title || "[Title]"} is a {props.category || "[Category]"}{" "}
-            {props.genre || "[Genre]"} set in {props.setting || "[Setting]"}. It
-            will appeal to readers of {props.compTitle1 || "[Comp 1]"} and{" "}
+            {props.title.toUpperCase() || "[TITLE]"} is a{" "}
+            {props.category || "[Category]"} {props.genre || "[Genre]"} set in{" "}
+            {props.setting || "[Setting]"}. It will appeal to readers of{" "}
+            {props.compTitle1 || "[Comp 1]"} and{" "}
             {props.compTitle2 || "[Comp 2]"}.{" "}
             {props.sequel &&
-              `${props.title ||
-                "[Title]"} has potential for a sequel following ${props.chosenName ||
+              `${props.title.toUpperCase() ||
+                "[TITLE]"} has potential for a sequel following ${props.chosenName ||
                 "[Chosen Name]"}'s story as ${props.pronoun ||
                 "[Pronoun]"} continues to ${props.sequel}.`}
             <br />
-            <br />I am submitting {props.title || "[Title]"} to you because{" "}
+            <br />I am submitting {props.title.toUpperCase() || "[TITLE]"} to
+            you because{" "}
             {props.agentPersonalization || "[Agent Personalization]"}.<br />
             <br />
             {props.qualification1 || "[Qualification 1]"}.{" "}
@@ -73,9 +75,7 @@ const Template = props => {
           </p>
         </div>
         <div className="instructions">
-          <h1 className="template__header">
-            What am I supposed to do with this?
-          </h1>
+          <h1 className="template__header">What to do Next</h1>
           <p className="instructions__description">
             The query letter you’re looking at isn’t perfect, but it’s a
             starting point. The raw material is there. Now, it’s your turn to

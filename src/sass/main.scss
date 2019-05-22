@@ -279,6 +279,14 @@ body {
   }
 }
 
+.placeholders--1 {
+  background-color: #dae8e6;
+}
+
+.placeholders--2 {
+  background-color: #c3e1dc;
+}
+
 .template-examples {
   flex: 1;  
   width: 70%;
@@ -287,6 +295,7 @@ body {
 .template-examples__text {
   width: 90%;
   margin: auto;
+  line-height: 1.6;
 }
 
 .example-left {
