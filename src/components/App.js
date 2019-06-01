@@ -7,6 +7,7 @@ import Landing from "./Landing";
 import TemplateExample from "./TemplateExample";
 import Advice from "./Advice";
 import NotFound from "./NotFound";
+import Footer from "./Footer";
 
 class App extends Component {
   constructor(props) {
@@ -72,6 +73,7 @@ class App extends Component {
             />
             <Route component={NotFound} />
           </Switch>
+          <Footer />
         </div>
       </Router>
     );
