@@ -266,7 +266,7 @@ class Form extends Component {
                 <input
                   type="submit"
                   value="Show Me My Query"
-                  className="link"
+                  className="link pledge-link"
                 />
               </Link>
             </div>

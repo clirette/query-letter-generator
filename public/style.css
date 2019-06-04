@@ -144,6 +144,8 @@ body {
   padding: 1rem; }
   .pledge * {
     margin: .4rem auto; }
+  .pledge-link {
+    -webkit-appearance: none; }
   .pledge__header {
     font-size: 2rem; }
   .pledge__lead {
@@ -261,7 +263,7 @@ body {
   .footer__text {
     padding: .4rem 0; }
 
-@media (max-width: 830px) {
+@media (max-width: 850px) {
   .text-box {
     width: 90%; }
   .navbar {
