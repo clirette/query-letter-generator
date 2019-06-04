@@ -6,7 +6,11 @@ const Footer = () => {
       <p className="footer__text">
         Copyright &copy; {new Date().getFullYear()} Query Letter Generator |
         Developed by{" "}
-        <a href="https://chaselirette.dev" target="_blank">
+        <a
+          href="https://chaselirette.dev"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Chase Lirette
         </a>
       </p>
