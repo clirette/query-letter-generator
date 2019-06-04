@@ -260,3 +260,15 @@ body {
   color: #fff; }
   .footer__text {
     padding: .4rem 0; }
+
+@media (max-width: 830px) {
+  .text-box {
+    width: 90%; }
+  .navbar {
+    max-height: 3rem; }
+  .logo {
+    height: 4rem; }
+  .nav-link {
+    margin: .6rem 1rem; }
+    .nav-link a {
+      font-size: 1rem; } }

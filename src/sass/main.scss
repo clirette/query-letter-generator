@@ -354,3 +354,31 @@ body {
     padding: .4rem 0;
   }
 }
+
+////////////////////////////////
+// Media Queries
+@media (max-width: 830px) {
+  ////////////////////////////////
+  // Landing Page
+  .text-box {
+    width: 90%;
+  }
+
+  ////////////////////////////////
+  // Navbar
+  .navbar {
+    max-height: 3rem;
+  }
+
+  .logo {
+    height: 4rem;
+  }
+
+  .nav-link {
+    margin: .6rem 1rem;
+
+    a {
+      font-size: 1rem;
+    }
+  }
+}
