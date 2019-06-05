@@ -78,7 +78,8 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-right: 2rem; }
+  margin-right: 2rem;
+  overflow: hidden; }
 
 .nav-link {
   margin: .6rem 1.6rem; }
@@ -295,6 +296,19 @@ body {
     font-size: 1rem; }
   .pledge {
     width: 90%; }
+  .template-container {
+    display: block; }
+  .template__div {
+    border: none;
+    margin-bottom: 2rem; }
+  .template__header {
+    font-size: 1.6rem; }
+  .template__text {
+    width: 95%;
+    font-size: .8rem; }
+  .instructions__description {
+    width: 95%;
+    font-size: .8rem; }
   .advice-header {
     font-size: 2rem; }
   .advice-body {

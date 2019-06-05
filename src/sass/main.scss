@@ -96,6 +96,7 @@ body {
   justify-content: space-around;
   align-items: center;
   margin-right: 2rem;
+  overflow: hidden;
 }
 
 .nav-link {
@@ -432,6 +433,36 @@ body {
 
   .pledge {
     width: 90%;
+  }
+
+  ////////////////////////////////
+  // Template
+  .template-container {
+    display: block;
+  }
+
+  .template {
+    &__div {
+      border: none;
+      margin-bottom: 2rem;
+    }
+
+    &__header {
+      font-size: 1.6rem;
+    }
+
+    &__text {
+      width: 95%;
+      font-size: .8rem;
+    }
+  }
+
+  .instructions {
+
+    &__description {
+      width: 95%;
+      font-size: .8rem;
+    }
   }
 
   ////////////////////////////////
