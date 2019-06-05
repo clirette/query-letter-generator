@@ -5,6 +5,7 @@ import Header from "./Header";
 import kofi from "../images/kofiButton.png";
 
 const Template = props => {
+  window.scrollTo(0, 0);
   return (
     <div className="template">
       <Header current="active" />
