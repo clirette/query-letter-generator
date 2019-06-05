@@ -314,4 +314,17 @@ body {
   .advice-header {
     font-size: 2rem; }
   .advice-body {
-    width: 90%; } }
+    width: 90%; }
+  .example-container {
+    display: block; }
+  .example {
+    width: 95%;
+    border: none; }
+    .example-left {
+      margin: 2.2rem auto; }
+  .template-examples {
+    width: 95%; }
+  .example__buttons-container {
+    flex-direction: row; }
+    .example__buttons-container button {
+      margin: 0; } }

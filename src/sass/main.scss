@@ -478,4 +478,31 @@ body {
   .advice-body {
     width: 90%;
   }
+
+  ////////////////////////////////
+  // Examples
+  .example-container {
+    display: block;
+  }
+
+  .example {
+    width: 95%;
+    border: none;
+
+    &-left {
+      margin: 2.2rem auto;
+    }
+  }
+
+  .template-examples {
+    width: 95%;
+  }
+
+  .example__buttons-container {
+    flex-direction: row;
+
+    button {
+      margin: 0;
+    }
+  }
 }
