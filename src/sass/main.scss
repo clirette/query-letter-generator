@@ -448,12 +448,12 @@ body {
     }
 
     &__header {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
     }
 
     &__text {
       width: 95%;
-      font-size: .8rem;
+      font-size: 1rem;
     }
   }
 
@@ -461,8 +461,12 @@ body {
 
     &__description {
       width: 95%;
-      font-size: .8rem;
+      font-size: 1rem;
     }
+  }
+
+  .kofiLink {
+    margin: 1rem auto;
   }
 
   ////////////////////////////////
