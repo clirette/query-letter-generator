@@ -90,6 +90,15 @@ body {
     font-weight: 700;
     text-transform: uppercase; }
 
+.bars {
+  height: 2rem;
+  width: 2rem;
+  border: .2rem solid #fff;
+  display: none; }
+  .bars .bar {
+    width: 1rem;
+    border-bottom: .1rem solid #fff; }
+
 .logo {
   height: 6rem;
   margin: .3rem 1rem; }
@@ -277,6 +286,22 @@ body {
       font-size: 1rem; } }
 
 @media (max-width: 425px) {
+  .nav-links {
+    display: none; }
+  .toggled-links {
+    display: flex;
+    flex-direction: column; }
+  .toggled-header {
+    max-height: none; }
+  .bars {
+    display: flex;
+    flex-direction: column;
+    margin-top: .4rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1rem;
+    cursor: pointer;
+    border-radius: .1rem; }
   .text-box {
     width: 100%; }
     .text-box__heading {

@@ -3,9 +3,20 @@ import { NavLink } from "react-router-dom";
 import logo from "../images/logo.png";
 
 class Header extends Component {
+  constructor(props) {
+    super(props);
+    this.navLinks = React.createRef();
+    this.header = React.createRef();
+  }
+
+  toggleLinks = e => {
+    this.navLinks.current.classList.toggle("toggled-links");
+    this.header.current.classList.toggle("toggled-header");
+  };
+
   render() {
     return (
-      <header className="navbar">
+      <header className="navbar" ref={this.header}>
         <NavLink to="/" className="nav-link-icon">
           <img
             src={logo}
@@ -13,7 +24,7 @@ class Header extends Component {
             className="logo"
           />
         </NavLink>
-        <ul className="nav-links">
+        <ul className="nav-links" ref={this.navLinks}>
           <li className="nav-link">
             <NavLink to="/" exact activeClassName="active">
               Home
@@ -39,6 +50,11 @@ class Header extends Component {
             </NavLink>
           </li>
         </ul>
+        <div className="bars" onClick={this.toggleLinks}>
+          <div className="bar bar-1" />
+          <div className="bar bar-2" />
+          <div className="bar bar-3" />
+        </div>
       </header>
     );
   }
