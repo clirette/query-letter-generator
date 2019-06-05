@@ -488,6 +488,8 @@ body {
   .example {
     width: 95%;
     border: none;
+    margin: auto;
+    margin-bottom: 2rem;
 
     &-left {
       margin: 2.2rem auto;
@@ -496,10 +498,21 @@ body {
 
   .template-examples {
     width: 95%;
+    margin: auto;
+
+    &__text {
+      width: 100%;
+      margin: 1rem auto;
+    }
   }
 
-  .example__buttons-container {
-    flex-direction: row;
+
+  .example__buttons {
+    margin: 0;
+
+    &-container {
+      flex-direction: row;
+    }
 
     button {
       margin: 0;

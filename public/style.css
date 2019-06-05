@@ -319,12 +319,20 @@ body {
     display: block; }
   .example {
     width: 95%;
-    border: none; }
+    border: none;
+    margin: auto;
+    margin-bottom: 2rem; }
     .example-left {
       margin: 2.2rem auto; }
   .template-examples {
-    width: 95%; }
-  .example__buttons-container {
-    flex-direction: row; }
-    .example__buttons-container button {
+    width: 95%;
+    margin: auto; }
+    .template-examples__text {
+      width: 100%;
+      margin: 1rem auto; }
+  .example__buttons {
+    margin: 0; }
+    .example__buttons-container {
+      flex-direction: row; }
+    .example__buttons button {
       margin: 0; } }
