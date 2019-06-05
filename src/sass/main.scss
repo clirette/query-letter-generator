@@ -393,6 +393,8 @@ body {
 ////////////////////////////////
 // Large Phones
 @media (max-width: 425px) {
+  ////////////////////////////////
+  // Landing Page
   .text-box {
     width: 100%;
 
@@ -408,5 +410,27 @@ body {
   .link {
     font-size: 1rem;
     min-width: 7rem;
+  }
+
+  ////////////////////////////////
+  // Generator
+  .section-header {
+    font-size: 2rem;
+  }
+
+  .form .item {
+    width: 90%;
+
+    label {
+      font-size: 1.5rem;
+    }
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .pledge {
+    width: 90%;
   }
 }
