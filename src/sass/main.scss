@@ -361,6 +361,9 @@ body {
 
 ////////////////////////////////
 // Media Queries
+
+////////////////////////////////
+// Tablet
 @media (max-width: 850px) {
   ////////////////////////////////
   // Landing Page
@@ -384,5 +387,26 @@ body {
     a {
       font-size: 1rem;
     }
+  }
+}
+
+////////////////////////////////
+// Large Phones
+@media (max-width: 425px) {
+  .text-box {
+    width: 100%;
+
+    &__heading {
+      font-size: 2rem;
+    }
+
+    &__lead {
+      font-size: 1rem;
+    }
+  }
+
+  .link {
+    font-size: 1rem;
+    min-width: 7rem;
   }
 }
