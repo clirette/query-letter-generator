@@ -5,8 +5,11 @@ import FormItem from "./FormItem";
 import Header from "./Header";
 
 class Form extends Component {
-  render() {
+  componentDidMount() {
     window.scrollTo(0, 0);
+  }
+
+  render() {
     return (
       <div className="query-background">
         <Header />
