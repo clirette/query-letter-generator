@@ -1,0 +1,13 @@
+/* TEAM */
+
+    Original concept and web design by Julia Jorgenson.
+    Contact: juliaenroute.com
+    Twitter: @juliaenroute
+
+    Development by Chase Lirette
+    Contact: chaselirette@gmail.com
+
+/* SITE */
+
+    Last update: 06/05/2019
+    Built with React, Sass (SCSS), VScode, and hosted on Netlify.
