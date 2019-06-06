@@ -3,6 +3,7 @@ import React from "react";
 import Header from "./Header";
 
 const Advice = () => {
+  window.scrollTo(0, 0);
   return (
     <div className="advice-background">
       <Header />

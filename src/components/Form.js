@@ -6,6 +6,7 @@ import Header from "./Header";
 
 class Form extends Component {
   render() {
+    window.scrollTo(0, 0);
     return (
       <div className="query-background">
         <Header />
