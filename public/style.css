@@ -273,6 +273,24 @@ body {
   .footer__text {
     padding: .4rem 0; }
 
+.not-found {
+  min-height: 95vh; }
+  .not-found__titles {
+    text-align: center; }
+  .not-found__logo {
+    height: 10rem; }
+    .not-found__logo--1 {
+      transform: rotate(0); }
+    .not-found__logo--2 {
+      transform: rotate(30deg); }
+    .not-found__logo--3 {
+      transform: rotate(180deg); }
+
+.images-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem; }
+
 @media (max-width: 850px) {
   .text-box {
     width: 90%; }
@@ -360,4 +378,10 @@ body {
     .example__buttons-container {
       flex-direction: row; }
     .example__buttons button {
-      margin: 0; } }
+      margin: 0; }
+  .images-container {
+    display: block;
+    text-align: center; }
+  .not-found__logo--1,
+  .not-found__logo--3 {
+    display: none; } }

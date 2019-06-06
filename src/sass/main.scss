@@ -375,6 +375,39 @@ body {
 }
 
 ////////////////////////////////
+// 404
+.not-found {
+  min-height: 95vh;
+
+  &__titles {
+    text-align: center;
+  }
+
+  &__logo {
+    height: 10rem;
+
+    &--1 {
+      transform: rotate(0);
+    }
+    
+    &--2 {
+      transform: rotate(30deg);
+
+    }
+
+    &--3 {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.images-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+////////////////////////////////
 // Media Queries
 
 ////////////////////////////////
@@ -557,4 +590,17 @@ body {
       margin: 0;
     }
   }
+
+  ////////////////////////////////
+  // 404
+  .images-container {
+    display: block;
+    text-align: center;
+  }
+
+  .not-found__logo--1,
+  .not-found__logo--3 {
+    display: none;
+  }
+
 }
