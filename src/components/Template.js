@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { report } from "../helpers/ga";
 import Header from "./Header";
 import kofi from "../images/kofiButton.png";
 
 const Template = props => {
   window.scrollTo(0, 0);
+  report(window.location.pathname);
   return (
     <div className="template">
       <Header current="active" />

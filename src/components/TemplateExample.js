@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { report } from "../helpers/ga";
+
 import Header from "./Header";
 
 /**
@@ -255,6 +257,10 @@ class TemplateExample extends Component {
       examplesIndex: e.target.value
     });
   };
+
+  componentDidMount() {
+    report(window.location.pathname);
+  }
 
   render() {
     window.scrollTo(0, 0);

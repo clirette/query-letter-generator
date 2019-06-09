@@ -1,8 +1,10 @@
 import React from "react";
 import Header from "./Header";
+import { report } from "../helpers/ga";
 import logo from "../images/logo.png";
 
 const NotFound = () => {
+  report(window.location.pathname);
   return (
     <div className="not-found">
       <Header />

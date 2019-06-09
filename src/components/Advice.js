@@ -1,9 +1,10 @@
 import React from "react";
-
+import { report } from "../helpers/ga";
 import Header from "./Header";
 
 const Advice = () => {
   window.scrollTo(0, 0);
+  report(window.location.pathname);
   return (
     <div className="advice-background">
       <Header />

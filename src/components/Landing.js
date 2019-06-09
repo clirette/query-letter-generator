@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { report } from "../helpers/ga";
 
 const Landing = () => {
+  report(window.location.pathname);
   return (
     <div className="landing-body">
       <div className="text-box">

@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-
+import { report } from "../helpers/ga";
 import FormItem from "./FormItem";
 import Header from "./Header";
 
 class Form extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
+    report(window.location.pathname);
   }
 
   render() {
