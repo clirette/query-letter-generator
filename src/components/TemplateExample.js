@@ -64,7 +64,7 @@ class TemplateExample extends Component {
         <span className="placeholders--1">
           [the man returns as knight in shining armor to slay her]
         </span>
-        ,<span className="placeholders--2">[she]</span> has to{" "}
+        , <span className="placeholders--2">[she]</span> has to{" "}
         <span className="placeholders--1">
           [admit she’s become the villain of her own story]
         </span>{" "}
@@ -76,7 +76,9 @@ class TemplateExample extends Component {
         .
         <br />
         <br />
-        Complete at <span className="placeholders--1">[70,000]</span> words,
+        Complete at <span className="placeholders--1">
+          [70,000]
+        </span> words,{" "}
         <span className="placeholders--2">[ELSIE FIRE: DRAGON]</span> is a/n{" "}
         <span className="placeholders--1">[adult]</span>{" "}
         <span className="placeholders--2">[low fantasy]</span> set in{" "}
@@ -92,8 +94,7 @@ class TemplateExample extends Component {
         . <span className="placeholders--2">[ELSIE FIRE: DRAGON]</span> has
         potential for a sequel following{" "}
         <span className="placeholders--1">[Elsie]</span>’s story as{" "}
-        <span className="placeholders--2">[she]</span>
-        continues to{" "}
+        <span className="placeholders--2">[she]</span> continues to{" "}
         <span className="placeholders--1">
           [explore her dragon powers in a world where only metal-clad men are
           called heroes]
@@ -180,9 +181,9 @@ class TemplateExample extends Component {
         <span className="placeholders--2">
           [a number of fellow inmates also want in—or out: Major Schmitty, a
           retired Navy Seal; Judy, a gossip who knows everything there is to
-          known about the CNAs; Huguette, who’s multiple hip-fractures mean
+          known about the CNAs; Huguette, whose multiple hip-fractures mean
           frequent trips in and out of the facility, and Jason, an activities
-          coordinator and vegan who believes no one should be caged up ]
+          coordinator and vegan who believes no one should be caged up]
         </span>
         . <span className="placeholders--1">[Deeby]</span> is tested when{" "}
         <span className="placeholders--2">
@@ -194,13 +195,15 @@ class TemplateExample extends Component {
           [the night of the great escape finally comes]
         </span>
         , <span className="placeholders--2">[he]</span> has to{" "}
-        <span className="placeholders--1">[get out]</span> or
+        <span className="placeholders--1">[get out]</span> or{" "}
         <span className="placeholders--2">[break a hip trying]</span>.
         <br />
         <br />
-        Complete at <span className="placeholders--1">[55,000]</span> words,
+        Complete at <span className="placeholders--1">
+          [55,000]
+        </span> words,{" "}
         <span className="placeholders--2">[THE GRAY ESCAPE]</span> is a(n){" "}
-        <span className="placeholders--1">[adult]</span>
+        <span className="placeholders--1">[adult]</span>{" "}
         <span className="placeholders--2">[comedy-heist]</span> set in{" "}
         <span className="placeholders--1">
           [a small-town nursing home in Kentucky]
@@ -208,11 +211,9 @@ class TemplateExample extends Component {
         . It will appeal to fans of{" "}
         <span className="placeholders--2">[The Golden Girls]</span> and{" "}
         <span className="placeholders--1">[Oceans 11]</span>.{" "}
-        <span className="placeholders--2">[THE GRAY ESCAPE]</span>
-        has potential for a sequel following{" "}
-        <span className="placeholders--1">[Deeby]</span>’s story as{" "}
-        <span className="placeholders--2">[he]</span>
-        continues to{" "}
+        <span className="placeholders--2">[THE GRAY ESCAPE]</span> has potential
+        for a sequel following <span className="placeholders--1">[Deeby]</span>
+        ’s story as <span className="placeholders--2">[he]</span> continues to{" "}
         <span className="placeholders--1">
           [live life to the fullest in his second century]
         </span>
@@ -245,7 +246,7 @@ class TemplateExample extends Component {
         Yours sincerely,
         <br />
         <br />
-        <span className="placeholders--1">[Chase Cooper]</span> (writing as
+        <span className="placeholders--1">[Chase Cooper]</span> (writing as{" "}
         <span className="placeholders--2">[Chase Casino]</span>)
       </p>
     ];
