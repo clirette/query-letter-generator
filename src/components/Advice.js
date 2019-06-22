@@ -19,8 +19,8 @@ const Advice = () => {
               Include the three mandatory sections: About the Book, Metadata,
               About Me.
             </strong>{" "}
-            These are the three main things your query needs to do: Introduce
-            your book in a way that will grab the reader’s attention, tell your
+            These are the three main things your query needs to do: introduce
+            your book in a way that will grab your reader’s attention, tell your
             reader where your book fits in “The Market,” and let your reader
             know who wrote the book. Hopefully the Query Generator has helped
             you with that.
@@ -29,13 +29,15 @@ const Advice = () => {
             <strong>Use business letter formatting.</strong> 12 point font.
             Single spaced. Left alignment. A space between paragraphs. If you’re
             emailing the query, stick to your email service’s default font and
-            size: “Sans Serif” and “Normal.”{" "}
+            size. In Gmail, this is: “Sans Serif” and “Normal.”{" "}
           </p>
           <p>
             <strong>Keep it short. 250-400 words.</strong> Remember your goal:
-            to get the agent to pick up the first chapter. Agents can receive
-            hundreds of queries in a week. They don’t have time for wasted
-            words. They won’t wait for you to get to your point. Be efficient.
+            to get the agent to read the first chapter. You don't need to
+            explain your fantasy world's entire magic system to do this. Agents
+            can receive hundreds of queries in a week. They don’t have time for
+            wasted words and they might not wait for you to get to your point.
+            Be efficient.
           </p>
         </div>
         <hr className="section-divider" />
@@ -72,7 +74,9 @@ const Advice = () => {
           </p>
         </div>
         <hr className="section-divider" />
-        <h1 className="advice-header">And When I’m Finished Editing?</h1>
+        <h1 className="advice-header">
+          What to Do When You're Finished Editing
+        </h1>
         <div className="advice-text-block">
           <p>
             Congrats! Now here are some extra things to do before you send it
@@ -82,8 +86,8 @@ const Advice = () => {
             <strong>
               Have someone else look over your query before you send it out.
             </strong>{" "}
-            Share it with the smartest person you know. An old English teacher.
-            A writing website, like{" "}
+            Share it with the smartest person you know: an old English teacher
+            or a writing website like{" "}
             <a
               href="https://reddit.com/r/writers"
               target="_blank"
@@ -148,7 +152,7 @@ const Advice = () => {
             give them a reason to discount your query in the first line.
           </p>
           <p>
-            <strong>Triple-check the agents’ submission requirements.</strong>
+            <strong>Triple-check the agents’ submission requirements.</strong>{" "}
             Every agency will probably have slightly different requirements, so
             make sure you’re following the right directions.
           </p>

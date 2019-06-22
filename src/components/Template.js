@@ -61,9 +61,9 @@ const Template = props => {
             {props.agentPersonalization || "[Agent Personalization]"}.<br />
             <br />
             {props.qualification1 || "[Qualification 1]"}.{" "}
-            {props.qualification2 || "[Qualification 2]"}.{" "}
+            {props.qualification2 && `${props.qualification2}.`}{" "}
             {props.personalDetail1 || "[Personal Detail 1]"}.{" "}
-            {props.personalDetail2 || "[Personal Detail 2]"}
+            {props.personalDetail2 && `${props.personalDetail2}.`}
             <br />
             <br />
             Thank you for your consideration.
