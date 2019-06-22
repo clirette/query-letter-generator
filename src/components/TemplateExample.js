@@ -362,11 +362,13 @@ class TemplateExample extends Component {
             <h1 className="example__header">Example Query</h1>
             <div className="example__buttons-container">
               <div className="example__buttons">
+                {/* eslint-disable-next-line */}
                 {this.state.examplesIndex == 1 && (
                   <button onClick={this.changeExample} value="0">
                     &lt;
                   </button>
                 )}
+                {/* eslint-disable-next-line */}
                 {this.state.examplesIndex == 0 && (
                   <button onClick={this.changeExample} value="1">
                     &gt;
