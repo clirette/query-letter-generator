@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer">
       <p className="footer__text">
         Copyright &copy; {new Date().getFullYear()} Query Letter Generator |
-        Developed by{" "}
+        Created by Julia Jorgenson and{" "}
         <a
           href="https://chaselirette.dev"
           target="_blank"
